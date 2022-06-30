@@ -1,12 +1,11 @@
-include<stdio.h>
-#include<string>
-/**
- *  * main-entry point
- *   * Return:always 0 (success)
- *    */
+#include<stdio.h>
 
+/**
+ *main -entry point
+ *Return: Always 0 (sucess)
+ */
 int main(void)
 {
-	char *s = "programming is like building a multilingual puzzle";
-	puts(s);
-	return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
+}
