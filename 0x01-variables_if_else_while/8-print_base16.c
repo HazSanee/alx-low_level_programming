@@ -10,15 +10,18 @@
 int main(void)
 {
 	int n;
-	char alpha;
+	char num = '0';
 
-	for (n = 0; n <= 9; n++)
+	while (num <= '9')
 	{
-		putchar(n);
+		putchar(num);
+		n++;
 	}
-	for (alpha = 'a'; alpha <= 'f'; alpha++)
+	num = 'a';
+	while (num <= 'f')
 	{
-		putchar(alpha);
+		putchar(num);
+		num++;
 	}
 	putchar('\n');
 	return (0);
