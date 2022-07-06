@@ -6,12 +6,12 @@
 
 void jack_bauer(void)
 {
-	int h = 0;
-	int m = 0;
+	int h;
+	int m;
 
-	while (h <= 23)
+	while (h = 0; h <= 23)
 	{
-		while (m <= 59)
+		while (m = 0; m <= 59)
 		{
 			_putchar(m);
 				m++;
