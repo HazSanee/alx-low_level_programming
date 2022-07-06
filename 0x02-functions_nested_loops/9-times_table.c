@@ -18,7 +18,7 @@ void times_table(void)
 		{
 
 			product = a * b;
-			if (b != 0)
+			if (b!= 0)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -31,6 +31,7 @@ void times_table(void)
 			{
 				_putchar(' ');
 				_putchar((product % 10) + '0');
+			}
 			else
 			{
 				((product % 10) + '0');
