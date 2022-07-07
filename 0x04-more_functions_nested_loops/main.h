@@ -2,7 +2,7 @@
 
 /**
  * _putchar - writes the character c to stdout
- * _isupper - checks if char is capital letter
+ * _isupper - checks if c is capital letter
  */
 
 int _isupper(int c);
