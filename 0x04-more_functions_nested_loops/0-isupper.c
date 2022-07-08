@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _isupper - checks for uppercase character
- * @c: character to be checked
+ * _isupper - checks if the character is uppercase
+ * @c: is the int used for the argument of the function
  * Return: 1 if c is uppercase, otherwise 0
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
