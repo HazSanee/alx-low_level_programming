@@ -1,32 +1,18 @@
 #include "main.h"
 
 /**
- * sqr - finds square root of n
- * @n: number to square
- * @i: test case for root
- * Description: find square root of n using recursion and two variables
- * Return: square root of n or -1 if none.
+ * _pow_recursion - find x^y
+ * @x: base number
+ * @y: power of the base
+ * Description: find x^y using factorial
+ * Return: x^y, -1 if y is negative
  */
 
-int sqr(int n, int i)
+int _pow_recursion(int x, int y)
 {
-	if (n == i * i)
-		return (i);
-	else if (n < i * i)
+	if (y < 0)
 		return (-1);
-	return (sqr(n, i + 1));
-}
-
-/**
- * _sqrt_recursion - find natural square root of n
- * @n: number to square
- * Description: find square root of n using recursion
- * Return: square root of n or -1 if none
- */
-
-int _sqrt_recursion(int n)
-{
-	if (n < 0)
-		return (-1);
-	return (sqr(n, 0));
+	if (y == 0)
+		return (1);
+	return (x * _pow_recursion(x, y - 1));
 }
